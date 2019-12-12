@@ -2,38 +2,38 @@ body {
   position: fixed;
   top: 50%;
   left: 50%;
-  /* bring your own prefixes */
   transform: translate(-50%, -50%);
 }
 
 .clock {
+  display: flex;
+  justify-content: center;
+  background-image: url('../images/monocle.png');
+  background-repeat: no-repeat;
+  background-size: contain;
   position: relative;
-  width: 30rem;
-  height: 30rem;
-  border: solid 8px black;
-  border-radius: 50%;
+  width: 260px;
+  height: 260px;
 }
 
 .running-time {
   position: absolute;
-  height: 2px;
+  height: 4px;
   background: black;
-  top: 50%;
-  right: 50%;
+  top: 32%;
+  right: 42%;
   transform-origin: 100%;
   transform: rotate(90deg);
-  transition: all 1s;
-  transition-timing-function: cubic-bezier(0.42, 0, 0, 2.09);
 }
 
 .hours {
-  width: 32%;
+  width: 12%;
 }
 
 .minutes {
-  width: 40%;
+  width: 14%;
 }
 
 .seconds {
-  width: 48%;
+  width: 18%;
 }
