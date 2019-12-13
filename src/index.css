@@ -18,7 +18,7 @@ body {
 
 .running-time {
   position: absolute;
-  height: 4px;
+  height: 2px;
   background: black;
   top: 32%;
   right: 42%;
